@@ -30,7 +30,7 @@
 ## 🧪 Demo Preview
 
 <p align="center">
-  <img src="assets/screenshot.png" alt="App Screenshot" />
+  <img src="assets/Screenshot.png" alt="App Screenshot" />
 </p>
 
 ---
