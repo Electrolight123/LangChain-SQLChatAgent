@@ -1,22 +1,13 @@
-# 🦜 LangChain-SQLChatAgent
-
-![Python](https://img.shields.io/badge/python-3.9%2B-blue.svg)
-![License](https://img.shields.io/github/license/Electrolight123/LangChain-SQLChatAgent)
-![Stars](https://img.shields.io/github/stars/Electrolight123/LangChain-SQLChatAgent?style=social)
-![Issues](https://img.shields.io/github/issues/Electrolight123/LangChain-SQLChatAgent)
-![Forks](https://img.shields.io/github/forks/Electrolight123/LangChain-SQLChatAgent?style=social)
-
-> A powerful, interactive SQL chatbot built using [LangChain](https://www.langchain.com/), [Streamlit](https://streamlit.io/), and [Groq](https://groq.com/) LLaMA3 models. This tool enables users to communicate with relational databases (SQLite or MySQL) using natural language queries. Ideal for data analysts, developers, or educators who want a hands-free way to explore and interact with their databases.
-
----
-
-## 🖼️ Social Preview Banner
-
 <p align="center">
   <img src="assets/social-preview.png" alt="LangChain SQL Chat Agent - Social Banner"/>
 </p>
 
+<h1 align="center"> 🦜 LangChain-SQLChatAgent </h1>
+
+> **A powerful, interactive SQL chatbot built using [LangChain](https://www.langchain.com/), [Streamlit](https://streamlit.io/), and [Groq](https://groq.com/) LLaMA3 models.** This tool enables users to communicate with relational databases (SQLite or MySQL) using natural language queries. Ideal for data analysts, developers, or educators who want a hands-free way to explore and interact with their databases.
+
 ---
+
 ## 🚀 Features
 
 - 🔗 Connects to both **SQLite** and **MySQL** databases.
@@ -37,16 +28,17 @@
 
 ## 🏗️ Project Structure
 
-.
+```bash
+LangChain-SQLChatAgent/
 ├── app.py # Main Streamlit application
 ├── sqlite.py # Script to create and populate a sample SQLite DB
 ├── student.db # SQLite database file (auto-generated)
 ├── requirements.txt # Python dependencies
+├── assets/
+│   ├── screenshot.png # Demo screenshot
+│   └── social-preview.png # GitHub social preview banner
 └── README.md # This file
-
-yaml
-Copy
-Edit
+```
 
 ---
 
@@ -80,65 +72,51 @@ streamlit run app.py
 ---
 
 ## 🔐 API Key Setup
-You'll need a Groq API key to use the LLaMA3 model. You can get one from [Groq Cloud]([https://console.groq.com/home]).
 
+You'll need a **Groq API key** to use the LLaMA3 model. You can get one from [Groq Cloud]([https://console.groq.com/home]).
 Paste it into the sidebar input field when prompted in the app.
 
 ---
 
 ## 📡 MySQL Configuration
+
 If you want to use your own MySQL database:
-
-Choose "Connect to your MySQL Database" in the sidebar.
-
-Provide:
-
-Host
-
-Username
-
-Password
-
-Database name
-
+- Choose "Connect to your MySQL Database" in the sidebar.
+  - Provide:
+  - Host
+  - Username
+  - Password
+  - Database name
 Make sure your DB is accessible and contains some data for querying.
 
 ---
 
 ## 🧠 Example Queries
-"List all students who scored more than 80."
 
-"How many students are in Data Science class?"
-
-"Show names of students in section A."
+- "List all students who scored more than 80."
+- "How many students are in Data Science class?"
+- "Show names of students in section A."
 
 ---
 
 ## 📌 Dependencies
-langchain
 
-langchain_groq
-
-streamlit
-
-sqlalchemy
-
-mysql-connector-python
-
-python-dotenv
-
-validators
+`langchain`
+`langchain_groq`
+`streamlit`
+`sqlalchemy`
+`mysql-connector-python`
+`python-dotenv`
+`validators`
 
 ---
 
 ## 💡 Future Enhancements
-✅ Add PostgreSQL support
 
-✅ Add file upload for SQL dumps
-
-✅ Improve response formatting
-
-✅ Add export options for query results
+- ✅ Add PostgreSQL support
+- ✅ Add file upload for SQL dumps
+- ✅ Improve response formatting
+- ✅ Add export options for query results
 
 ---
 
@@ -148,9 +126,11 @@ This project is licensed under the MIT License.
 ---
 
 ## 👨‍💻 Author
-Abhishek Bala
-B.Tech @ NIT Rourkela
-Feel free to connect on LinkedIn or check out more at GitHub
+**Abhishek Bala**
+B.Tech & M.tech @ NIT Rourkela
+Feel free to connect on [LinkedIn]([https://www.linkedin.com/in/abhishek-bala-ba1ab224b/]) or check out more at [GitHub]([https://github.com/Electrolight123?tab=repositories])
+
+---
 
 ## 🌟 Show Your Support
 If you find this project useful, consider giving it a ⭐ and sharing it with your network!
